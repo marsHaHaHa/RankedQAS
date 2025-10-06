@@ -67,7 +67,7 @@ Compute the RF metric using a large number of unlabeled quantum circuits.
 RF_proxy_calculator.sh
 ```
 
-Relative Fluctuation (RF)[2] is a training-free metric that predicts the learnability of a Quantum Neural Network (QNN). It compares the fluctuation of a QNN’s training landscape with a standard learnable one, identifying issues such as low expressibility, barren plateaus, bad local minima, and overparameterization. 
+Relative Fluctuation (RF)[1] is a training-free metric that predicts the learnability of a Quantum Neural Network (QNN). It compares the fluctuation of a QNN’s training landscape with a standard learnable one, identifying issues such as low expressibility, barren plateaus, bad local minima, and overparameterization. 
 
 ---
 
