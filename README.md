@@ -13,10 +13,11 @@ We introduce a new training paradigm for Quantum Architecture Search (QAS) cente
 
 ## 🧩 Key Features
 
-- **Directly optimizes a differentiable, top-heavy ranking loss** to focus the model on identifying elite circuits.
-- **Proposes a shift from standard correlation metrics** (like Kendall's Tau) to top-heavy metrics (like NDCG) for more practical and relevant evaluation of QAS rankers.
-- **Introduces a DAG-Transformer architecture** with a novel Reachability-based Attention mechanism tailored for the causal structure of quantum circuits.
-- **Employs a self-supervised pre-training strategy** to learn robust circuit representations from unlabeled data.
+- **Top-tier-focused NDCG Loss** – A differentiable ranking loss that directly optimizes top-k accuracy for elite quantum architectures.
+
+  **Circuit-native Transformer** – Transformer with unitary-flow attention and depth-aware encoding tailored to quantum circuit DAGs.
+
+  **RF-based Self-Supervised Pretraining** – Learns functionally-aware circuit representations by predicting Relative Fluctuation before fine-tuning.
 
 ---
 
@@ -136,7 +137,7 @@ QAS_run_experiments.sh
 
 - Heisenberg Model
 - The 1D Transverse Field Ising Model (TFIM)
-- The 1D transverse-field cluster model (Cluster)
+- The 1D transverse-field cluster model (TFCM)
 
 ---
 
