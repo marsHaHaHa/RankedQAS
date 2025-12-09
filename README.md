@@ -3,7 +3,7 @@
 This repository provides the official implementation of the paper:
 
 > **Realigning Quantum Architecture Search with a Top-k Focused Training Paradim**  
-> (Submission to npj Quantum Information)
+> (Submission to Physical Review Applied)
 
 We introduce a new training paradigm for Quantum Architecture Search (QAS) centered on a differentiable, top-heavy ranking loss. This approach directly aligns the model's training with the primary goal of QAS: identifying a small set of elite, top-performing quantum circuits, rather than perfectly ranking all candidates. Our framework is enabled by a novel Circuit-native Transformer model and a self-supervised pre-training strategy, establishing a more effective and purpose-driven method for discovering optimal quantum architectures.
 
